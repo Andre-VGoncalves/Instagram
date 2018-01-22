@@ -11,18 +11,11 @@ package com.parse.starter;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
-import android.view.Menu;
-import android.view.MenuItem;
 
-import com.parse.FindCallback;
-import com.parse.GetCallback;
-import com.parse.ParseAnalytics;
+import com.parse.LogInCallback;
 import com.parse.ParseException;
-import com.parse.ParseObject;
-import com.parse.ParseQuery;
-import com.parse.SaveCallback;
-
-import java.util.List;
+import com.parse.ParseUser;
+import com.parse.SignUpCallback;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -32,88 +25,44 @@ public class MainActivity extends AppCompatActivity {
     super.onCreate(savedInstanceState);
     setContentView(R.layout.activity_main);
 
-      //add dados no Parse
-      /*ParseObject pontuacao = new ParseObject("Pontuacao");
-      pontuacao.put("nome", "Luiza");
-      pontuacao.put("pontos", 7555 );
-      pontuacao.saveInBackground(new SaveCallback() {
+    /************* Cadastro de Usuario************/
+      /*ParseUser usuario = new ParseUser();
+      usuario.setUsername("andrevieira");
+      usuario.setPassword("123456");
+      usuario.setEmail("andre@gmail.com");
+
+      //Cadastrar Usuario
+      usuario.signUpInBackground(new SignUpCallback() {
           @Override
           public void done(ParseException e) {
-              if( e == null ){//não temos erros, pois o objeto está nulo
-                  Log.i("salvarPontos", "Dados salvos com sucesso");
-              }else {
-                  Log.i("salvarPontos", "Erro ao salvar os dados");
-              }
-          }
-      });*/
-
-
-      //Consulta de dados
-      /*ParseQuery<ParseObject> consulta = ParseQuery.getQuery("Pontuacao");
-      consulta.getInBackground("NVsD8EWQdE", new GetCallback<ParseObject>() {
-          @Override
-          public void done(ParseObject object, ParseException e) {
-
-              if( e == null ){
-                  //Altera a pontuação
-                  object.put("pontos", 1150 );
-                  object.saveInBackground();
-
+              if (e == null){
+                  Log.i("cadastrousuario", "Sucesso ao cadastrar o usuario");
               }else{
-                  Log.i("consultaObjeto", "Erro ao consultar objeto" + e.getMessage() );
+                  Log.i("cadastrousuario", "Erro ao cadastrar o usuario" + e.getMessage());
               }
-
           }
       });*/
+      //deslogar usuario
+      //ParseUser.logOut();
 
-      ParseQuery<ParseObject> filtro = ParseQuery.getQuery("Pontuacao");
+      /************* Verificar se esta Logado ************/
+      /*
+      if(ParseUser.getCurrentUser() != null){//logado
+          Log.i("session", "Logado");
+      }else{
+          Log.i("session", "Deslogado");
+      }*/
 
-      //Aplicando filtros na listagem de objetos
-      // pode colocar varios filtros de uma vez
-
-      //campo mais o valor nesse caso maior que 800
-      //filtro.whereGreaterThan("pontos", 800);
-
-      //igual ou maior que 800
-      //filtro.whereGreaterThanOrEqualTo("pontos", 800);
-
-      //menor que 500
-      //filtro.whereLessThan("pontos", 500);
-
-      //termina com
-      //filtro.whereEndsWith("nome", "ia");
-
-      //inicia com
-      //filtro.whereStartsWith("nome", "Ja");
-
-      //ordem crescente
-      //filtro.addAscendingOrder("pontos");
-
-      //ordem decrescene
-      //filtro.addDescendingOrder("pontos");
-
-      // o tanto de resultados que quer exibir
-      //filtro.setLimit(1);
-
-
-      //Listar os dados
-      filtro.findInBackground(new FindCallback<ParseObject>() {
+      ParseUser.logInInBackground("andrevieira", "123456", new LogInCallback() {
           @Override
-          public void done(List<ParseObject> objects, ParseException e) {
-
-              if( e == null ){//efetuada a listagem sem erros
-
-                  for( ParseObject object : objects ){
-                      Log.i("ListarDados", "objetos - Nome: " + object.get("nome") + " ponto: " + object.get("pontos") );
-                  }
-
-              }else{//Erro ao listar
-                  Log.i("ListarDados", "Erro ao Listar os objetos - " + e.getMessage() );
+          public void done(ParseUser user, ParseException e) {
+              if (e == null){
+                  Log.i("Login", "Sucesso ao fazer o login");
+              }else{
+                  Log.i("Login", "Erro ao fazer o login" + e.getMessage());
               }
-
           }
       });
-
 
   }
 
