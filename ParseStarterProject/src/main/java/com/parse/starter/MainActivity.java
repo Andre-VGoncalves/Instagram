@@ -8,7 +8,9 @@
  */
 package com.parse.starter;
 
+import android.app.Activity;
 import android.os.Bundle;
+import android.support.v4.app.ActivityCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 
@@ -16,6 +18,7 @@ import com.parse.LogInCallback;
 import com.parse.ParseException;
 import com.parse.ParseUser;
 import com.parse.SignUpCallback;
+import com.parse.starter.R;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -23,7 +26,8 @@ public class MainActivity extends AppCompatActivity {
   @Override
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
-    setContentView(R.layout.activity_main);
+
+      setContentView(R.layout.activity_main);
 
     /************* Cadastro de Usuario************/
       /*ParseUser usuario = new ParseUser();
@@ -53,6 +57,7 @@ public class MainActivity extends AppCompatActivity {
           Log.i("session", "Deslogado");
       }*/
 
+      //Realizar o Login
       ParseUser.logInInBackground("andrevieira", "123456", new LogInCallback() {
           @Override
           public void done(ParseUser user, ParseException e) {

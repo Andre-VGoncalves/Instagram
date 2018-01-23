@@ -28,16 +28,16 @@
         "source": "C:\\Users\\andrevieira\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-22.2.0.aar\\67fd75e76c874c1c592a6a9a4484cdd6\\res\\drawable-xxhdpi\\abc_ic_go_search_api_mtrl_alpha.png"
     },
     {
-        "merged": "C:\\Users\\andrevieira\\AndroidStudioProjects\\Instagram\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
-        "source": "C:\\Users\\andrevieira\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-22.2.0.aar\\67fd75e76c874c1c592a6a9a4484cdd6\\res\\drawable-mdpi\\abc_btn_switch_to_on_mtrl_00001.9.png"
+        "merged": "C:\\Users\\andrevieira\\AndroidStudioProjects\\Instagram\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\drawable_abc_list_selector_holo_dark.xml.flat",
+        "source": "C:\\Users\\andrevieira\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-22.2.0.aar\\67fd75e76c874c1c592a6a9a4484cdd6\\res\\drawable\\abc_list_selector_holo_dark.xml"
     },
     {
         "merged": "C:\\Users\\andrevieira\\AndroidStudioProjects\\Instagram\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_abc_ic_ab_back_mtrl_am_alpha.png.flat",
         "source": "C:\\Users\\andrevieira\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-22.2.0.aar\\67fd75e76c874c1c592a6a9a4484cdd6\\res\\drawable-mdpi\\abc_ic_ab_back_mtrl_am_alpha.png"
     },
     {
-        "merged": "C:\\Users\\andrevieira\\AndroidStudioProjects\\Instagram\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\drawable_abc_list_selector_holo_dark.xml.flat",
-        "source": "C:\\Users\\andrevieira\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-22.2.0.aar\\67fd75e76c874c1c592a6a9a4484cdd6\\res\\drawable\\abc_list_selector_holo_dark.xml"
+        "merged": "C:\\Users\\andrevieira\\AndroidStudioProjects\\Instagram\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
+        "source": "C:\\Users\\andrevieira\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-22.2.0.aar\\67fd75e76c874c1c592a6a9a4484cdd6\\res\\drawable-mdpi\\abc_btn_switch_to_on_mtrl_00001.9.png"
     },
     {
         "merged": "C:\\Users\\andrevieira\\AndroidStudioProjects\\Instagram\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_abc_ab_share_pack_mtrl_alpha.9.png.flat",
@@ -100,12 +100,12 @@
         "source": "C:\\Users\\andrevieira\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-22.2.0.aar\\67fd75e76c874c1c592a6a9a4484cdd6\\res\\drawable-xxhdpi\\abc_list_divider_mtrl_alpha.9.png"
     },
     {
-        "merged": "C:\\Users\\andrevieira\\AndroidStudioProjects\\Instagram\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\layout_abc_action_menu_item_layout.xml.flat",
-        "source": "C:\\Users\\andrevieira\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-22.2.0.aar\\67fd75e76c874c1c592a6a9a4484cdd6\\res\\layout\\abc_action_menu_item_layout.xml"
-    },
-    {
         "merged": "C:\\Users\\andrevieira\\AndroidStudioProjects\\Instagram\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\anim_abc_slide_in_bottom.xml.flat",
         "source": "C:\\Users\\andrevieira\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-22.2.0.aar\\67fd75e76c874c1c592a6a9a4484cdd6\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\andrevieira\\AndroidStudioProjects\\Instagram\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\layout_abc_action_menu_item_layout.xml.flat",
+        "source": "C:\\Users\\andrevieira\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-22.2.0.aar\\67fd75e76c874c1c592a6a9a4484cdd6\\res\\layout\\abc_action_menu_item_layout.xml"
     },
     {
         "merged": "C:\\Users\\andrevieira\\AndroidStudioProjects\\Instagram\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_abc_btn_check_to_on_mtrl_000.png.flat",
@@ -128,6 +128,10 @@
         "source": "C:\\Users\\andrevieira\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-22.2.0.aar\\67fd75e76c874c1c592a6a9a4484cdd6\\res\\drawable-mdpi\\abc_tab_indicator_mtrl_alpha.9.png"
     },
     {
+        "merged": "C:\\Users\\andrevieira\\AndroidStudioProjects\\Instagram\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\drawable_fundo_degrade.xml.flat",
+        "source": "C:\\Users\\andrevieira\\AndroidStudioProjects\\Instagram\\ParseStarterProject\\src\\main\\res\\drawable\\fundo_degrade.xml"
+    },
+    {
         "merged": "C:\\Users\\andrevieira\\AndroidStudioProjects\\Instagram\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_abc_list_longpressed_holo.9.png.flat",
         "source": "C:\\Users\\andrevieira\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-22.2.0.aar\\67fd75e76c874c1c592a6a9a4484cdd6\\res\\drawable-hdpi\\abc_list_longpressed_holo.9.png"
     },
@@ -146,6 +150,10 @@
     {
         "merged": "C:\\Users\\andrevieira\\AndroidStudioProjects\\Instagram\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_abc_ic_menu_moreoverflow_mtrl_alpha.png.flat",
         "source": "C:\\Users\\andrevieira\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-22.2.0.aar\\67fd75e76c874c1c592a6a9a4484cdd6\\res\\drawable-hdpi\\abc_ic_menu_moreoverflow_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\andrevieira\\AndroidStudioProjects\\Instagram\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\andrevieira\\AndroidStudioProjects\\Instagram\\ParseStarterProject\\src\\main\\res\\layout\\activity_login.xml"
     },
     {
         "merged": "C:\\Users\\andrevieira\\AndroidStudioProjects\\Instagram\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_abc_textfield_activated_mtrl_alpha.9.png.flat",
@@ -192,20 +200,20 @@
         "source": "C:\\Users\\andrevieira\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-22.2.0.aar\\67fd75e76c874c1c592a6a9a4484cdd6\\res\\drawable-xxhdpi\\abc_tab_indicator_mtrl_alpha.9.png"
     },
     {
-        "merged": "C:\\Users\\andrevieira\\AndroidStudioProjects\\Instagram\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_abc_cab_background_top_mtrl_alpha.9.png.flat",
-        "source": "C:\\Users\\andrevieira\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-22.2.0.aar\\67fd75e76c874c1c592a6a9a4484cdd6\\res\\drawable-xhdpi\\abc_cab_background_top_mtrl_alpha.9.png"
-    },
-    {
         "merged": "C:\\Users\\andrevieira\\AndroidStudioProjects\\Instagram\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_abc_ic_commit_search_api_mtrl_alpha.png.flat",
         "source": "C:\\Users\\andrevieira\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-22.2.0.aar\\67fd75e76c874c1c592a6a9a4484cdd6\\res\\drawable-hdpi\\abc_ic_commit_search_api_mtrl_alpha.png"
     },
     {
-        "merged": "C:\\Users\\andrevieira\\AndroidStudioProjects\\Instagram\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_abc_list_selector_disabled_holo_light.9.png.flat",
-        "source": "C:\\Users\\andrevieira\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-22.2.0.aar\\67fd75e76c874c1c592a6a9a4484cdd6\\res\\drawable-xhdpi\\abc_list_selector_disabled_holo_light.9.png"
+        "merged": "C:\\Users\\andrevieira\\AndroidStudioProjects\\Instagram\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_abc_cab_background_top_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\andrevieira\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-22.2.0.aar\\67fd75e76c874c1c592a6a9a4484cdd6\\res\\drawable-xhdpi\\abc_cab_background_top_mtrl_alpha.9.png"
     },
     {
         "merged": "C:\\Users\\andrevieira\\AndroidStudioProjects\\Instagram\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_abc_list_pressed_holo_light.9.png.flat",
         "source": "C:\\Users\\andrevieira\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-22.2.0.aar\\67fd75e76c874c1c592a6a9a4484cdd6\\res\\drawable-mdpi\\abc_list_pressed_holo_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\andrevieira\\AndroidStudioProjects\\Instagram\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_abc_list_selector_disabled_holo_light.9.png.flat",
+        "source": "C:\\Users\\andrevieira\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-22.2.0.aar\\67fd75e76c874c1c592a6a9a4484cdd6\\res\\drawable-xhdpi\\abc_list_selector_disabled_holo_light.9.png"
     },
     {
         "merged": "C:\\Users\\andrevieira\\AndroidStudioProjects\\Instagram\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_abc_list_divider_mtrl_alpha.9.png.flat",
@@ -476,6 +484,10 @@
         "source": "C:\\Users\\andrevieira\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-22.2.0.aar\\67fd75e76c874c1c592a6a9a4484cdd6\\res\\drawable-xhdpi\\abc_list_longpressed_holo.9.png"
     },
     {
+        "merged": "C:\\Users\\andrevieira\\AndroidStudioProjects\\Instagram\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\drawable_logo.png.flat",
+        "source": "C:\\Users\\andrevieira\\AndroidStudioProjects\\Instagram\\ParseStarterProject\\src\\main\\res\\drawable\\logo.png"
+    },
+    {
         "merged": "C:\\Users\\andrevieira\\AndroidStudioProjects\\Instagram\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_abc_btn_rating_star_on_mtrl_alpha.png.flat",
         "source": "C:\\Users\\andrevieira\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-22.2.0.aar\\67fd75e76c874c1c592a6a9a4484cdd6\\res\\drawable-xhdpi\\abc_btn_rating_star_on_mtrl_alpha.png"
     },
@@ -616,12 +628,20 @@
         "source": "C:\\Users\\andrevieira\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-22.2.0.aar\\67fd75e76c874c1c592a6a9a4484cdd6\\res\\layout\\abc_popup_menu_item_layout.xml"
     },
     {
+        "merged": "C:\\Users\\andrevieira\\AndroidStudioProjects\\Instagram\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\drawable_usuario.png.flat",
+        "source": "C:\\Users\\andrevieira\\AndroidStudioProjects\\Instagram\\ParseStarterProject\\src\\main\\res\\drawable\\usuario.png"
+    },
+    {
         "merged": "C:\\Users\\andrevieira\\AndroidStudioProjects\\Instagram\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_abc_textfield_default_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\andrevieira\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-22.2.0.aar\\67fd75e76c874c1c592a6a9a4484cdd6\\res\\drawable-mdpi\\abc_textfield_default_mtrl_alpha.9.png"
     },
     {
         "merged": "C:\\Users\\andrevieira\\AndroidStudioProjects\\Instagram\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\layout_abc_action_mode_bar.xml.flat",
         "source": "C:\\Users\\andrevieira\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-22.2.0.aar\\67fd75e76c874c1c592a6a9a4484cdd6\\res\\layout\\abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "C:\\Users\\andrevieira\\AndroidStudioProjects\\Instagram\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\drawable_fundo_botao.xml.flat",
+        "source": "C:\\Users\\andrevieira\\AndroidStudioProjects\\Instagram\\ParseStarterProject\\src\\main\\res\\drawable\\fundo_botao.xml"
     },
     {
         "merged": "C:\\Users\\andrevieira\\AndroidStudioProjects\\Instagram\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\drawable_abc_btn_check_material.xml.flat",
@@ -954,6 +974,10 @@
     {
         "merged": "C:\\Users\\andrevieira\\AndroidStudioProjects\\Instagram\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\layout_abc_action_bar_view_list_nav_layout.xml.flat",
         "source": "C:\\Users\\andrevieira\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-22.2.0.aar\\67fd75e76c874c1c592a6a9a4484cdd6\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\andrevieira\\AndroidStudioProjects\\Instagram\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\drawable_fundo_caixa_texto.xml.flat",
+        "source": "C:\\Users\\andrevieira\\AndroidStudioProjects\\Instagram\\ParseStarterProject\\src\\main\\res\\drawable\\fundo_caixa_texto.xml"
     },
     {
         "merged": "C:\\Users\\andrevieira\\AndroidStudioProjects\\Instagram\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_big_media.xml.flat",
