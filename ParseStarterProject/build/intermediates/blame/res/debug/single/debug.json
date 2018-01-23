@@ -440,6 +440,10 @@
         "source": "C:\\Users\\andrevieira\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-22.2.0.aar\\67fd75e76c874c1c592a6a9a4484cdd6\\res\\layout\\select_dialog_item_material.xml"
     },
     {
+        "merged": "C:\\Users\\andrevieira\\AndroidStudioProjects\\Instagram\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\layout_activity_cadastro_usuario.xml.flat",
+        "source": "C:\\Users\\andrevieira\\AndroidStudioProjects\\Instagram\\ParseStarterProject\\src\\main\\res\\layout\\activity_cadastro_usuario.xml"
+    },
+    {
         "merged": "C:\\Users\\andrevieira\\AndroidStudioProjects\\Instagram\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\layout_abc_screen_simple_overlay_action_mode.xml.flat",
         "source": "C:\\Users\\andrevieira\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-22.2.0.aar\\67fd75e76c874c1c592a6a9a4484cdd6\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
     },
